@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  watchtower-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_PATH=/app/data/watchtower.duckdb
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    volumes:
+      - ./data:/app/data
+      - ./watchtower:/app/watchtower
+    command: python watchtower/api/main.py
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  watchtower-ui:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - API_BASE_URL=http://watchtower-api:8000
+    volumes:
+      - ./watchtower:/app/watchtower
+    command: streamlit run watchtower/ui/app.py --server.port 8501 --server.address 0.0.0.0
+    depends_on:
+      - watchtower-api
+
+  duckdb:
+    image: duckdb/duckdb:latest
+    volumes:
+      - ./data:/data
+    command: duckdb /data/watchtower.duckdb
+
+networks:
+  default:
+    name: watchtower-network
