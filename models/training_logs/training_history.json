@@ -1,0 +1,22 @@
+[
+  {
+    "iteration": 1,
+    "episodes_per_iteration": 100,
+    "avg_reward": 49230.5425,
+    "test_metrics": {
+      "accuracy": 0.5735,
+      "precision": 0.1565906838453915,
+      "recall": 0.9875,
+      "f1_score": 0.27031650983746797,
+      "true_positives": 158.0,
+      "true_negatives": 989.0,
+      "false_positives": 851.0,
+      "false_negatives": 2.0,
+      "total_reward": 11656.0
+    },
+    "training_time": 24665.70913028717,
+    "epsilon": 0.01,
+    "total_steps": 799937,
+    "timestamp": "2025-11-16T21:43:37.451497"
+  }
+]
