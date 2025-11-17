@@ -77,4 +77,11 @@ dmypy.json
 data/
 *.db
 
+# Model files (too large for git)
+models/*.pth
+models/*.joblib
+models/training_logs/
+*.pth
+*.joblib
+
 
