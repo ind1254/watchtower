@@ -1,0 +1,57 @@
+======================================================================
+MODEL EVALUATION REPORT
+======================================================================
+Date: 2025-11-23 16:47:05
+Test Set Size: 2000 transactions
+Test Set Fraud Rate: 8.00%
+
+----------------------------------------------------------------------
+RANDOM FOREST MODEL
+----------------------------------------------------------------------
+Accuracy:  0.9200
+Precision: 0.0000
+Recall:    0.0000
+F1-Score:  0.0000
+ROC-AUC:   0.7661
+
+Confusion Matrix:
+                Predicted
+Actual      Normal    Fraud
+Normal        1840         0
+Fraud          160         0
+
+Mean Probability: 0.0030
+Std Probability:  0.0075
+----------------------------------------------------------------------
+DQN MODEL
+----------------------------------------------------------------------
+Accuracy:  0.9870
+Precision: 0.8895
+Recall:    0.9563
+F1-Score:  0.9217
+ROC-AUC:   0.9807
+
+Confusion Matrix:
+                Predicted
+Actual      Normal    Fraud
+Normal        1821        19
+Fraud            7       153
+
+Mean Probability: 0.3330
+Std Probability:  0.2027
+======================================================================
+COMPARISON
+======================================================================
+Winner by Metric:
+  Accuracy    : DQN
+  Precision   : DQN
+  Recall      : DQN
+  F1 Score    : DQN
+  Roc Auc     : DQN
+
+Recommendations:
+  • DQN model has better overall performance (F1: 0.9217 vs 0.0000)
+  • DQN has higher recall (0.9563 vs 0.0000) - better at catching fraud
+  • DQN has higher precision (0.8895 vs 0.0000) - fewer false positives
+
+======================================================================

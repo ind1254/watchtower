@@ -1,0 +1,302 @@
+[
+  {
+    "iteration": 1,
+    "episodes_per_iteration": 100,
+    "avg_reward": 49230.5425,
+    "test_metrics": {
+      "accuracy": 0.5735,
+      "precision": 0.1565906838453915,
+      "recall": 0.9875,
+      "f1_score": 0.27031650983746797,
+      "true_positives": 158.0,
+      "true_negatives": 989.0,
+      "false_positives": 851.0,
+      "false_negatives": 2.0,
+      "total_reward": 11656.0
+    },
+    "training_time": 24665.70913028717,
+    "epsilon": 0.01,
+    "total_steps": 799937,
+    "timestamp": "2025-11-16T21:43:37.451497"
+  },
+  {
+    "iteration": 2,
+    "episodes_per_iteration": 100,
+    "avg_reward": 47293.945,
+    "test_metrics": {
+      "accuracy": 0.85,
+      "precision": 0.3458149779735683,
+      "recall": 0.98125,
+      "f1_score": 0.5114006514657979,
+      "true_positives": 157.0,
+      "true_negatives": 1543.0,
+      "false_positives": 297.0,
+      "false_negatives": 3.0,
+      "total_reward": 12193.25
+    },
+    "training_time": 61913.42839384079,
+    "epsilon": 0.01,
+    "total_steps": 1599937,
+    "timestamp": "2025-11-17T14:55:30.990828"
+  },
+  {
+    "iteration": 3,
+    "episodes_per_iteration": 100,
+    "avg_reward": 48258.8725,
+    "test_metrics": {
+      "accuracy": 0.715,
+      "precision": 0.21606648199445982,
+      "recall": 0.975,
+      "f1_score": 0.3537414965986394,
+      "true_positives": 156.0,
+      "true_negatives": 1274.0,
+      "false_positives": 566.0,
+      "false_negatives": 4.0,
+      "total_reward": 11496.0
+    },
+    "training_time": 6590.249982833862,
+    "epsilon": 0.01,
+    "total_steps": 2399937,
+    "timestamp": "2025-11-17T16:45:21.249210"
+  },
+  {
+    "iteration": 4,
+    "episodes_per_iteration": 100,
+    "avg_reward": 50978.19,
+    "test_metrics": {
+      "accuracy": 0.815,
+      "precision": 0.29961832061068705,
+      "recall": 0.98125,
+      "f1_score": 0.4590643274853802,
+      "true_positives": 157.0,
+      "true_negatives": 1473.0,
+      "false_positives": 367.0,
+      "false_negatives": 3.0,
+      "total_reward": 12088.25
+    },
+    "training_time": 6355.349645376205,
+    "epsilon": 0.01,
+    "total_steps": 3199937,
+    "timestamp": "2025-11-17T18:31:16.608019"
+  },
+  {
+    "iteration": 5,
+    "episodes_per_iteration": 100,
+    "avg_reward": 51642.5925,
+    "test_metrics": {
+      "accuracy": 0.989,
+      "precision": 0.9058823529411765,
+      "recall": 0.9625,
+      "f1_score": 0.9333333333333333,
+      "true_positives": 154.0,
+      "true_negatives": 1824.0,
+      "false_positives": 16.0,
+      "false_negatives": 6.0,
+      "total_reward": 11733.5
+    },
+    "training_time": 7201.719434261322,
+    "epsilon": 0.01,
+    "total_steps": 3999937,
+    "timestamp": "2025-11-17T20:31:18.608377"
+  },
+  {
+    "iteration": 6,
+    "episodes_per_iteration": 100,
+    "avg_reward": 50953.6275,
+    "test_metrics": {
+      "accuracy": 0.934,
+      "precision": 0.548951048951049,
+      "recall": 0.98125,
+      "f1_score": 0.7040358744394619,
+      "true_positives": 157.0,
+      "true_negatives": 1711.0,
+      "false_positives": 129.0,
+      "false_negatives": 3.0,
+      "total_reward": 12445.25
+    },
+    "training_time": 63346.06687116623,
+    "epsilon": 0.01,
+    "total_steps": 4799937,
+    "timestamp": "2025-11-18T14:07:04.700365"
+  },
+  {
+    "iteration": 7,
+    "episodes_per_iteration": 100,
+    "avg_reward": 51891.5275,
+    "test_metrics": {
+      "accuracy": 0.902,
+      "precision": 0.4479768786127168,
+      "recall": 0.96875,
+      "f1_score": 0.6126482213438735,
+      "true_positives": 155.0,
+      "true_negatives": 1649.0,
+      "false_positives": 191.0,
+      "false_negatives": 5.0,
+      "total_reward": 11764.75
+    },
+    "training_time": 4747.85239481926,
+    "epsilon": 0.01,
+    "total_steps": 5599937,
+    "timestamp": "2025-11-18T15:26:12.566083"
+  },
+  {
+    "iteration": 8,
+    "episodes_per_iteration": 100,
+    "avg_reward": 51158.715,
+    "test_metrics": {
+      "accuracy": 0.815,
+      "precision": 0.2988505747126437,
+      "recall": 0.975,
+      "f1_score": 0.4574780058651027,
+      "true_positives": 156.0,
+      "true_negatives": 1474.0,
+      "false_positives": 366.0,
+      "false_negatives": 4.0,
+      "total_reward": 11796.0
+    },
+    "training_time": 6836.048335313797,
+    "epsilon": 0.01,
+    "total_steps": 6399937,
+    "timestamp": "2025-11-18T17:20:08.661995"
+  },
+  {
+    "iteration": 9,
+    "episodes_per_iteration": 100,
+    "avg_reward": 51679.0375,
+    "test_metrics": {
+      "accuracy": 0.9855,
+      "precision": 0.8830409356725146,
+      "recall": 0.94375,
+      "f1_score": 0.9123867069486404,
+      "true_positives": 151.0,
+      "true_negatives": 1820.0,
+      "false_positives": 20.0,
+      "false_negatives": 9.0,
+      "total_reward": 10846.25
+    },
+    "training_time": 7146.36351442337,
+    "epsilon": 0.01,
+    "total_steps": 7199937,
+    "timestamp": "2025-11-18T19:19:15.057389"
+  },
+  {
+    "iteration": 10,
+    "episodes_per_iteration": 100,
+    "avg_reward": 50419.65,
+    "test_metrics": {
+      "accuracy": 0.5705,
+      "precision": 0.15566502463054188,
+      "recall": 0.9875,
+      "f1_score": 0.268936170212766,
+      "true_positives": 158.0,
+      "true_negatives": 983.0,
+      "false_positives": 857.0,
+      "false_negatives": 2.0,
+      "total_reward": 11647.0
+    },
+    "training_time": 5084.494030952454,
+    "epsilon": 0.01,
+    "total_steps": 7999937,
+    "timestamp": "2025-11-18T20:43:59.952788"
+  },
+  {
+    "iteration": 11,
+    "episodes_per_iteration": 100,
+    "avg_reward": 48559.72,
+    "test_metrics": {
+      "accuracy": 0.616,
+      "precision": 0.1717062634989201,
+      "recall": 0.99375,
+      "f1_score": 0.2928176795580111,
+      "true_positives": 159.0,
+      "true_negatives": 1073.0,
+      "false_positives": 767.0,
+      "false_negatives": 1.0,
+      "total_reward": 12075.75
+    },
+    "training_time": 67612.14532351494,
+    "epsilon": 0.01,
+    "total_steps": 8799937,
+    "timestamp": "2025-11-19T15:30:52.113927"
+  },
+  {
+    "iteration": 12,
+    "episodes_per_iteration": 100,
+    "avg_reward": 48255.675,
+    "test_metrics": {
+      "accuracy": 0.6375,
+      "precision": 0.1793416572077185,
+      "recall": 0.9875,
+      "f1_score": 0.3035542747358309,
+      "true_positives": 158.0,
+      "true_negatives": 1117.0,
+      "false_positives": 723.0,
+      "false_negatives": 2.0,
+      "total_reward": 11848.0
+    },
+    "training_time": 4825.918091058731,
+    "epsilon": 0.01,
+    "total_steps": 9599937,
+    "timestamp": "2025-11-19T16:51:18.058931"
+  },
+  {
+    "iteration": 13,
+    "episodes_per_iteration": 100,
+    "avg_reward": 47584.2725,
+    "test_metrics": {
+      "accuracy": 0.626,
+      "precision": 0.17333333333333334,
+      "recall": 0.975,
+      "f1_score": 0.2943396226415094,
+      "true_positives": 156.0,
+      "true_negatives": 1096.0,
+      "false_positives": 744.0,
+      "false_negatives": 4.0,
+      "total_reward": 11229.0
+    },
+    "training_time": 5342.189368009567,
+    "epsilon": 0.01,
+    "total_steps": 10399937,
+    "timestamp": "2025-11-19T18:20:20.265855"
+  },
+  {
+    "iteration": 14,
+    "episodes_per_iteration": 100,
+    "avg_reward": 47057.9025,
+    "test_metrics": {
+      "accuracy": 0.6755,
+      "precision": 0.19551681195516812,
+      "recall": 0.98125,
+      "f1_score": 0.32606438213914846,
+      "true_positives": 157.0,
+      "true_negatives": 1194.0,
+      "false_positives": 646.0,
+      "false_negatives": 3.0,
+      "total_reward": 11669.75
+    },
+    "training_time": 4806.656921863556,
+    "epsilon": 0.01,
+    "total_steps": 11199937,
+    "timestamp": "2025-11-19T19:40:26.950506"
+  },
+  {
+    "iteration": 15,
+    "episodes_per_iteration": 100,
+    "avg_reward": 48281.565,
+    "test_metrics": {
+      "accuracy": 0.6085,
+      "precision": 0.16684491978609625,
+      "recall": 0.975,
+      "f1_score": 0.28493150684931506,
+      "true_positives": 156.0,
+      "true_negatives": 1061.0,
+      "false_positives": 779.0,
+      "false_negatives": 4.0,
+      "total_reward": 11176.5
+    },
+    "training_time": 4608.580808639526,
+    "epsilon": 0.01,
+    "total_steps": 11999937,
+    "timestamp": "2025-11-19T20:57:15.688254"
+  }
+]
